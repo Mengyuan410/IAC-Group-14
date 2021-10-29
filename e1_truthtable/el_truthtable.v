@@ -22,7 +22,7 @@ module el_truthtable(
         else if(&a && b == 2 && x==1) begin
             y = 2;//
         end
-        else begin 
+        else begin //these conditions aren't defined by the truth table I assume we can assign them to a value of 1. 
             y = 1; //set the value of don't care to equal 1 for undefined cases
         end
     end
