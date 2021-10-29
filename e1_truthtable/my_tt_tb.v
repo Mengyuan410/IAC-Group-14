@@ -4,11 +4,12 @@ module my_tt_tb(
     logic [3:0] b;
     logic x;
     logic [2:0] y;
-
+//initialize variables necessary in el_truthtable.
+// I made a testbench for checking your code works. May not have time to do this in exam though, hope you like it.
     initial begin
         $dumpfile("my_tt.vcd");
 		$dumpvars(0,my_tt_tb);
-      
+      //dumpvars and dumpfile are necessary to produce o/p file and also initialize my_tt_tb which can be run to produce the o/p vcd I think
 		a = 3'b111;
 		b = 4'b0010;
 		x = 1;
