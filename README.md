@@ -1,5 +1,5 @@
 # IAC-Group-14
-## Task
+## Task for 29/10 -- 5/11
 Try 12 exercises in the assessment 5 and upload it in a file per person, so that everybody can learn/check/sth etc.... 
 \
 \
