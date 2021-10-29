@@ -9,5 +9,4 @@ File name: name_12_exercises   E.g. Mengyuan_12_exercises
 Specialise: 
 \
 James: 1,2
-\
 
