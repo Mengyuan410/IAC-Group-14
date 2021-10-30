@@ -1,0 +1,179 @@
+RAM : INIT : Loading RAM contents from test/1-binary/multiply.hex.txt
+WARNING: src/RAM_16x4096_delay0.v:26: $readmemh: The behaviour for reg[...] mem[N:0]; $readmemh("...", mem); changed in the 1364-2005 standard. To avoid ambiguity, use mem[0:N] or explicit range parameters $readmemh("...", mem, start, stop);. Defaulting to 1364-2005 behavior.
+WARNING: src/RAM_16x4096_delay0.v:26: $readmemh(test/1-binary/multiply.hex.txt): Not enough words in the file for the requested range [0:4095].
+CPU : INFO  : Resetting.
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0000, imm=00d, readdata=0009
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0009, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0009, imm=00e, readdata=0000
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=0000, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=0007, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=0007, imm=00d, readdata=0009
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0009, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0008, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0008, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0008, imm=00d, readdata=0008
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0008, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0008, imm=00e, readdata=0007
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=0007, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=000e, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=000e, imm=00d, readdata=0008
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0008, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0007, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0007, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0007, imm=00d, readdata=0007
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0007, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0007, imm=00e, readdata=000e
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=000e, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=0015, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=0015, imm=00d, readdata=0007
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0007, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0006, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0006, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0006, imm=00d, readdata=0006
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0006, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0006, imm=00e, readdata=0015
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=0015, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=001c, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=001c, imm=00d, readdata=0006
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0006, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0005, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0005, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0005, imm=00d, readdata=0005
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0005, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0005, imm=00e, readdata=001c
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=001c, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=0023, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=0023, imm=00d, readdata=0005
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0005, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0004, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0004, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0004, imm=00d, readdata=0004
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0004, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0004, imm=00e, readdata=0023
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=0023, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=002a, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=002a, imm=00d, readdata=0004
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0004, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0003, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0003, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0003, imm=00d, readdata=0003
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0003, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0003, imm=00e, readdata=002a
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=002a, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=0031, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=0031, imm=00d, readdata=0003
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0003, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0002, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0002, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0002, imm=00d, readdata=0002
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0002, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0002, imm=00e, readdata=0031
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=0031, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=0038, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=0038, imm=00d, readdata=0002
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0002, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0001, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0001, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0001, imm=00d, readdata=0001
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0001, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=005.
+CPU : INFO  : Executing, opcode=0, acc=0001, imm=00e, readdata=0038
+CPU : INFO  : Fetching, address=006.
+CPU : INFO  : Executing, opcode=2, acc=0038, imm=00c, readdata=0007
+CPU : INFO  : Fetching, address=007.
+CPU : INFO  : Executing, opcode=1, acc=003f, imm=00e, readdata=xxxx
+CPU : INFO  : Fetching, address=008.
+CPU : INFO  : Executing, opcode=0, acc=003f, imm=00d, readdata=0001
+CPU : INFO  : Fetching, address=009.
+CPU : INFO  : Executing, opcode=2, acc=0001, imm=00f, readdata=ffff
+CPU : INFO  : Fetching, address=00a.
+CPU : INFO  : Executing, opcode=1, acc=0000, imm=00d, readdata=xxxx
+CPU : INFO  : Fetching, address=00b.
+CPU : INFO  : Executing, opcode=4, acc=0000, imm=000, readdata=xxxx
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0000, imm=00d, readdata=0000
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=6, acc=0000, imm=005, readdata=xxxx
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=0, acc=0000, imm=00e, readdata=003f
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=8, acc=003f, imm=000, readdata=xxxx
+CPU : OUT   :     63
+CPU : INFO  : Fetching, address=004.
+CPU : INFO  : Executing, opcode=7, acc=003f, imm=000, readdata=xxxx
+TB : finished; running=0
+src/CPU_MU0_delay0_tb.v:55: $finish called at 349000 (10ps)

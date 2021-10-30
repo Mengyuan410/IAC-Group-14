@@ -1,0 +1,80 @@
+RAM : INIT : Loading RAM contents from test/1-binary/countdown.hex.txt
+WARNING: src/RAM_16x4096_delay0.v:26: $readmemh: The behaviour for reg[...] mem[N:0]; $readmemh("...", mem); changed in the 1364-2005 standard. To avoid ambiguity, use mem[0:N] or explicit range parameters $readmemh("...", mem, start, stop);. Defaulting to 1364-2005 behavior.
+WARNING: src/RAM_16x4096_delay0.v:26: $readmemh(test/1-binary/countdown.hex.txt): Not enough words in the file for the requested range [0:4095].
+CPU : INFO  : Resetting.
+CPU : INFO  : Fetching, address=000.
+CPU : INFO  : Executing, opcode=0, acc=0000, imm=005, readdata=000a
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=000a, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0009, imm=000, readdata=xxxx
+CPU : OUT   :      9
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0009, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0009, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0008, imm=000, readdata=xxxx
+CPU : OUT   :      8
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0008, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0008, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0007, imm=000, readdata=xxxx
+CPU : OUT   :      7
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0007, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0007, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0006, imm=000, readdata=xxxx
+CPU : OUT   :      6
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0006, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0006, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0005, imm=000, readdata=xxxx
+CPU : OUT   :      5
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0005, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0005, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0004, imm=000, readdata=xxxx
+CPU : OUT   :      4
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0004, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0004, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0003, imm=000, readdata=xxxx
+CPU : OUT   :      3
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0003, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0003, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0002, imm=000, readdata=xxxx
+CPU : OUT   :      2
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0002, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0002, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0001, imm=000, readdata=xxxx
+CPU : OUT   :      1
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0001, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=001.
+CPU : INFO  : Executing, opcode=2, acc=0001, imm=006, readdata=ffff
+CPU : INFO  : Fetching, address=002.
+CPU : INFO  : Executing, opcode=8, acc=0000, imm=000, readdata=xxxx
+CPU : OUT   :      0
+CPU : INFO  : Fetching, address=003.
+CPU : INFO  : Executing, opcode=6, acc=0000, imm=001, readdata=xxxx
+CPU : INFO  : Fetching, address=004.
+CPU : INFO  : Executing, opcode=7, acc=0000, imm=000, readdata=xxxx
+TB : finished; running=0
+src/CPU_MU0_delay0_tb.v:55: $finish called at 133000 (10ps)
