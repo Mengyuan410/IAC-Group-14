@@ -1,0 +1,42 @@
+#! /usr/local/Cellar/icarus-verilog/11.0/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/local/Cellar/icarus-verilog/11.0/lib/ivl/system.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/11.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/11.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/11.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/11.0/lib/ivl/va_math.vpi";
+:vpi_module "/usr/local/Cellar/icarus-verilog/11.0/lib/ivl/v2009.vpi";
+S_0x7ff84c607f40 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0x7ff84c6080b0 .scope module, "rom" "rom" 3 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 8 "word_address";
+    .port_info 1 /OUTPUT 32 "data";
+v0x7ff84c607c30_0 .var "data", 31 0;
+o0x7ff84c732038 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7ff84c617f80 .array "regs", 0 7;
+v0x7ff84c617f80_0 .net v0x7ff84c617f80 0, 31 0, o0x7ff84c732038; 0 drivers
+o0x7ff84c732068 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7ff84c617f80_1 .net v0x7ff84c617f80 1, 31 0, o0x7ff84c732068; 0 drivers
+L_0x7ff84c763008 .functor BUFT 1, C4<11100011111111110000000011001100>, C4<0>, C4<0>, C4<0>;
+v0x7ff84c617f80_2 .net v0x7ff84c617f80 2, 31 0, L_0x7ff84c763008; 1 drivers
+o0x7ff84c7320c8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7ff84c617f80_3 .net v0x7ff84c617f80 3, 31 0, o0x7ff84c7320c8; 0 drivers
+o0x7ff84c7320f8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7ff84c617f80_4 .net v0x7ff84c617f80 4, 31 0, o0x7ff84c7320f8; 0 drivers
+o0x7ff84c732128 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7ff84c617f80_5 .net v0x7ff84c617f80 5, 31 0, o0x7ff84c732128; 0 drivers
+o0x7ff84c732158 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7ff84c617f80_6 .net v0x7ff84c617f80 6, 31 0, o0x7ff84c732158; 0 drivers
+o0x7ff84c732188 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0x7ff84c617f80_7 .net v0x7ff84c617f80 7, 31 0, o0x7ff84c732188; 0 drivers
+o0x7ff84c7321b8 .functor BUFZ 8, C4<zzzzzzzz>; HiZ drive
+v0x7ff84c6180c0_0 .net "word_address", 7 0, o0x7ff84c7321b8;  0 drivers
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "rom.v";
