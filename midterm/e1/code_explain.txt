@@ -1,0 +1,10 @@
+We initialize a raster file through using always_comb begin
+
+Then we use combination logic to increase the values of x and y storing these intermitently as 
+x_next and y_next. This was much similar to our e8_waveforms implementation and we based our solution
+on the previously implemented multiplier.
+
+The test_bench loops through 144 outputs starting from x=0 and going all the way up till a total of 144 
+inputs have been tested. 
+
+IMPORTANT: we created a vcd file to show the outputs as waves of the tb and it seems succesful. 
