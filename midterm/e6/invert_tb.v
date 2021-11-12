@@ -15,7 +15,7 @@ module invert_tb();
         clk = 0;
         #1
         y = 8;
-        repeat (1000) begin
+        repeat (258) begin
             clk = 1;  
             #1;
             clk = 0;  
@@ -30,7 +30,7 @@ module invert_tb();
     initial begin
         @(posedge clk);
 
-        repeat (256) begin
+        repeat (258) begin
             @(posedge clk)
             // Collect output 1ns after clock edge
             #1;
