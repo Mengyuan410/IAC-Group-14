@@ -22,14 +22,12 @@ module multiplier(
 
     initial begin
         repeat(10000) begin
-        //always @(posedge clk) begin
             @(posedge clk);
                 mp <= mp_next;
                 mc <= mc_next;
                 acc <= acc_next;
                 i <= i_next;
-                //rnew = r;
-                //#1; // allow the values to change
+            
                 if (i_next==8) begin
                     r <= acc_next;
                     valid_out <= 1;
