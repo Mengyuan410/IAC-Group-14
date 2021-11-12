@@ -16,14 +16,14 @@ initial begin
     b = 7;
     #5
     assert (r == 22) else $fatal(0, "failed, r = %d", r);
-   $display("a = %d, b = %d, op = %d, r = %d", a, b, op, r);
+   
     /* op == 1 */
     op = 1;
     #1
     a = 11;
     b = 13;
     #5
-    $display("a = %d, b = %d, op = %d, r = %d", a, b, op, r);
+    
 
 
     /* op == 2 */
@@ -33,7 +33,7 @@ initial begin
     b = 24;
     #5
     assert (r == 0) else $fatal(0, "failed, r = %d", r);
-    $display("a = %d, b = %d, op = %d, r = %d", a, b, op, r);
+    
 
     op = 2;
     #1
@@ -41,8 +41,7 @@ initial begin
     b = 2;
     #5
     assert (r == 24'h000001) else $fatal(0, "failed, r = %d", r);
-    $display("a = %d, b = %d, op = %d, r = %d", a, b, op, r);
-
+    
     /* op == 3 */
     op = 3;
     #1
@@ -50,7 +49,7 @@ initial begin
     b = 30;
     #5
     assert (r == 0) else $fatal(0, "failed, r = %d", r);
-    $display("a = %d, b = %d, op = %d, r = %d", a, b, op, r);
+    
     
     op = 3;
     #1
@@ -58,7 +57,7 @@ initial begin
     b = 5;
     #5
     assert (r == 24'h0000E0) else $fatal(0, "failed, r = %d", r);
-    $display("a = %d, b = %d, op = %d, r = %d", a, b, op, r);
+    
     
     $display("pass.");
     $finish;
