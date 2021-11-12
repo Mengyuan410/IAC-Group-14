@@ -1,6 +1,6 @@
 # IAC-Group-14
 ## ACTUAL EXAM
-Upload each question in a file in main
+Upload each question the folder
 
 Other Notes:
 \
