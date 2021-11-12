@@ -3,8 +3,6 @@
 set -eou pipefail
 mkdir -p bin
 
-sudo apt-get install g++
-
 TESTCASES="src/*.cpp"
 
 for i in ${TESTCASES} ; do
