@@ -6,4 +6,4 @@ We have 3 examples in src. X should fail returning a non-zero exit code but othe
 The exit code of the bash script should be 0 if compilation failure occurs. 
 
 Otherwise if no file can compile we don't even get an exit code so hence the compilation failure will occur.
-I assume the user can install a g++ compiler onto their machine. 
+I assume the user HAS ALREADY INSTALLED g++ compiler on device. 
